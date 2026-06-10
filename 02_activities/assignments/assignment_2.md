@@ -35,7 +35,6 @@
       Improvement 2: Use one colour, or use colour with purpose. A single colour for all bars, or one highlight colour for the top performer, would be far cleaner and accessible to all viewers, addressing our focus on equitable design.
 
       For the GOOD visualization:
-
       Improvement 1: Add direct line labels instead of a separate legend. Right now the legend sits below the chart, forcing the viewer to move their eyes back and forth to figure out which line is which. Labelling each line directly at its endpoint would reduce that back-and-forth and lower cognitive load.
       
       Improvement 2: Highlight the AI/AN line more prominently. Since that group is literally the subject of the title, it could be bolder or a slightly thicker line weight to draw the eye there first. This would strengthen the storytelling and make the visualization even more intentional in guiding the audience.
