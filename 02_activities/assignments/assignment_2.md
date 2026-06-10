@@ -10,24 +10,35 @@
 - For each visualization (good and bad):  
     - Explain (with reference to material covered up to date, along with readings and other scholarly sources, as needed) why you classified that visualization the way you did.
       ```
-      Your answer...
+      Bad Visualization: "Ser-Sub-Category Sale 3D Cylindrical Chart". (Tableau Public, https://public.tableau.com/app/profile/shaq4030/viz/Ser-Sub-Category3DCylindricalChart/CylinderChart ). This visualization is bad for three main reasons.
+      
+      Reason 1: The 3D cylinders make it hard to read the actual values. The class slides cover the principle "No 3D without Cause", and there's no cause here. Because each bar is a cylinder, it's unclear where exactly the value ends: the front of the curve? The back? The middle? This is what the slide deck 4 calls "approximate interpretation", which is harder on the brain than simply reading a flat bar at a baseline. The 3D adds nothing useful and it only makes things harder to read.
+      
+      Reason 2: The colours mean nothing. Every bar gets a different random colour, but none of those colours actually encode any information. There's no grouping or pattern behind them. According to Wong (2010), the Gestalt principles tell us that viewers will automatically look for meaning in colour. When there isn't any, it's just confusing noise. On top of that, 17 different colours on a black background is a real accessibility problem for anyone with colour blindness, which goes against creating equitable visualizations.
+      
+      Reason 3: This chart type is the wrong tool for the job. The whole point of this chart is to compare sales across sub-categories, which is a ranking task. The Financial Times Visual Vocabulary, which we covered in class, tells me that a plain bar chart is the right choice here. Instead, this uses an unusual 3D cylinder format that the course specifically flags as increasing cognitive load. The story (which sub-categories sell the most) gets completely buried in the visual noise.
 
-
-
-
-
+      Good Visualization: "AI/AN Unemployment Rates Over Time". (Tableau Public, https://public.tableau.com/app/profile/britnee.johnston3127/viz/AI-ANUnemploymentRatesOverTime/Fig3). This visualization is a "good" classification for three main reasons.
+      
+      Reason 1: It picks the right chart type and tells a clear story. The chart compares unemployment trends across five racial groups over two decades, which is a "change over time" task, and a multi-line chart is exactly what the Financial Times Visual Vocabulary recommends for it. The chart type is also familiar, which as we noted in class, keeps cognitive load low. Also, the title is informative: "During recessions and recoveries, American Indian/Alaska Natives' unemployment rate is higher than white, Latinx, and Asians." You don't have to guess what the point is. In class we talked about how a good visualization clearly conveys what message the maker is attempting to convey.
+      
+      Reason 2: It hits all four of Kennedy et al.'s (2016) conventions. The four design choices that make audiences trust a visualization more are a 2D image, a clean layout, geometric shapes and lines, and a cited data source. This chart checks every box. It's uncluttered, uses simple lines, and credits the U.S. Bureau of Labor Statistics at the bottom. In class we talked about "provenance rhetoric", which is the idea that citing your source signals transparency and makes viewers more likely to trust what they're seeing (slide 47 in slide deck 4).
+      
+      Reason 3: The colour works. it uses "Gestalt similarity" meaningfully. Each racial group gets a distinct, consistent colour that runs throughout the chart. According to Wong (2010), the Gestalt principle means viewers automatically group things that look alike, and here, that instinct is actually helpful. Your eye follows each line as a single continuous story without getting confused. This is the opposite of the bad visualization, where 17 random colours encoded nothing. The colour palette also uses muted, distinguishable tones rather than neon colours, making it more accessible across different viewing contexts.
 
 
       ```
     - How could this data visualization have been improved?  
       ```
-      Your answer...
+      For the BAD visualization:
+      Improvement 1: Switch to a simple horizontal bar chart, sorted by value. Sorting bars from highest to lowest makes the ranking obvious at a glance. No 3D needed and no confusion about where to read the value.
+      Improvement 2: Use one colour, or use colour with purpose. A single colour for all bars, or one highlight colour for the top performer, would be far cleaner and accessible to all viewers, addressing our focus on equitable design.
 
+      For the GOOD visualization:
 
-
-
-
-
+      Improvement 1: Add direct line labels instead of a separate legend. Right now the legend sits below the chart, forcing the viewer to move their eyes back and forth to figure out which line is which. Labelling each line directly at its endpoint would reduce that back-and-forth and lower cognitive load.
+      
+      Improvement 2: Highlight the AI/AN line more prominently. Since that group is literally the subject of the title, it could be bolder or a slightly thicker line weight to draw the eye there first. This would strengthen the storytelling and make the visualization even more intentional in guiding the audience.
       
       ```
 - Word count should not exceed (as a maximum) 500 words for each visualization (i.e. 
